@@ -1,0 +1,10 @@
+[Unit]
+Description=ReDeX Server
+
+[Service]
+User=redex
+Group=users
+ExecStart=/opt/redex/redex-server -c /home/redex/ReDeX/config.xml -l /home/redex/ReDeX/log.txt
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/about.svg</file>
+        <file>res/connect.svg</file>
+        <file>res/disconnect.svg</file>
+        <file>res/logo-hbrs.png</file>
+        <file>res/logo-isf.png</file>
+        <file>res/refresh.svg</file>
+    </qresource>
+</RCC>

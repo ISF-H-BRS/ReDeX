@@ -1,0 +1,7 @@
+ID1 ID0 | Sensor
+--------+---------------------
+  0   0 | Free
+  0   1 | pH/ORP
+  1   0 | Temperature
+  1   1 | Reserved (no sensor)
+--------+---------------------

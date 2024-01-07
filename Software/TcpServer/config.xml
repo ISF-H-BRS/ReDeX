@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<configuration>
+    <nodes>
+        <conductance id="conductance0">
+            <serial>3452335B3438</serial>
+        </conductance>
+        <conductance id="conductance1">
+            <serial>375637833138</serial>
+        </conductance>
+
+        <sensors id="temperature0">
+            <port>ttyTemperature0</port>
+        </sensors>
+        <sensors id="temperature1">
+            <port>ttyTemperature1</port>
+        </sensors>
+
+        <sensors id="phorp0">
+            <port>ttyPhOrp0</port>
+        </sensors>
+        <sensors id="phorp1">
+            <port>ttyPhOrp1</port>
+        </sensors>
+        <sensors id="phorp2">
+            <port>ttyPhOrp2</port>
+        </sensors>
+        <sensors id="phorp3">
+            <port>ttyPhOrp3</port>
+        </sensors>
+
+        <potentiostat id="potentiostat0">
+            <port>ttyPotentiostat0</port>
+        </potentiostat>
+        <potentiostat id="potentiostat1">
+            <port>ttyPotentiostat1</port>
+        </potentiostat>
+        <potentiostat id="potentiostat2">
+            <port>ttyPotentiostat2</port>
+        </potentiostat>
+        <potentiostat id="potentiostat3">
+            <port>ttyPotentiostat3</port>
+        </potentiostat>
+    </nodes>
+
+    <sensors>
+        <conductance id="conductance0">
+            <node>conductance0</node>
+            <input>0</input>
+            <config>
+                <frequency>168</frequency>
+                <amplitude>1.0</amplitude>
+                <lead_resistance>0</lead_resistance>
+            </config>
+        </conductance>
+        <conductance id="conductance1">
+            <node>conductance0</node>
+            <input>1</input>
+            <config>
+                <frequency>168</frequency>
+                <amplitude>1.0</amplitude>
+                <lead_resistance>0</lead_resistance>
+            </config>
+        </conductance>
+        <conductance id="conductance2">
+            <node>conductance1</node>
+            <input>0</input>
+            <config>
+                <frequency>168</frequency>
+                <amplitude>1.0</amplitude>
+                <lead_resistance>0</lead_resistance>
+            </config>
+        </conductance>
+        <conductance id="conductance3">
+            <node>conductance1</node>
+            <input>1</input>
+            <config>
+                <frequency>168</frequency>
+                <amplitude>1.0</amplitude>
+                <lead_resistance>0</lead_resistance>
+            </config>
+        </conductance>
+
+        <temperature id="temperature0">
+            <node>temperature0</node>
+            <input>0</input>
+        </temperature>
+        <temperature id="temperature1">
+            <node>temperature0</node>
+            <input>1</input>
+        </temperature>
+        <temperature id="temperature2">
+            <node>temperature1</node>
+            <input>0</input>
+        </temperature>
+        <temperature id="temperature3">
+            <node>temperature1</node>
+            <input>1</input>
+        </temperature>
+
+        <ph id="ph0">
+            <node>phorp0</node>
+            <input>0</input>
+        </ph>
+        <ph id="ph1">
+            <node>phorp1</node>
+            <input>0</input>
+        </ph>
+        <ph id="ph2">
+            <node>phorp2</node>
+            <input>0</input>
+        </ph>
+        <ph id="ph3">
+            <node>phorp3</node>
+            <input>0</input>
+        </ph>
+
+        <orp id="orp0">
+            <node>phorp0</node>
+            <input>1</input>
+        </orp>
+        <orp id="orp1">
+            <node>phorp1</node>
+            <input>1</input>
+        </orp>
+        <orp id="orp2">
+            <node>phorp2</node>
+            <input>1</input>
+        </orp>
+        <orp id="orp3">
+            <node>phorp3</node>
+            <input>1</input>
+        </orp>
+
+        <potentiostat id="potentiostat0">
+            <node>potentiostat0</node>
+            <input>0</input>
+            <config>
+                <current_range>0</current_range>
+                <auto_range>true</auto_range>
+                <scan_rate>100</scan_rate>
+                <vertex0>-500</vertex0>
+                <vertex1>-500</vertex1>
+                <vertex2>+500</vertex2>
+                <cycle_count>1</cycle_count>
+                <voltage_offset>0</voltage_offset>
+                <current_offset>0</current_offset>
+                <signal_offset>0</signal_offset>
+            </config>
+        </potentiostat>
+        <potentiostat id="potentiostat1">
+            <node>potentiostat1</node>
+            <input>0</input>
+            <config>
+                <current_range>0</current_range>
+                <auto_range>true</auto_range>
+                <scan_rate>100</scan_rate>
+                <vertex0>-500</vertex0>
+                <vertex1>-500</vertex1>
+                <vertex2>+500</vertex2>
+                <cycle_count>1</cycle_count>
+                <voltage_offset>0</voltage_offset>
+                <current_offset>0</current_offset>
+                <signal_offset>0</signal_offset>
+            </config>
+        </potentiostat>
+        <potentiostat id="potentiostat2">
+            <node>potentiostat2</node>
+            <input>0</input>
+            <config>
+                <current_range>0</current_range>
+                <auto_range>true</auto_range>
+                <scan_rate>100</scan_rate>
+                <vertex0>-500</vertex0>
+                <vertex1>-500</vertex1>
+                <vertex2>+500</vertex2>
+                <cycle_count>1</cycle_count>
+                <voltage_offset>0</voltage_offset>
+                <current_offset>0</current_offset>
+                <signal_offset>0</signal_offset>
+            </config>
+        </potentiostat>
+        <potentiostat id="potentiostat3">
+            <node>potentiostat3</node>
+            <input>0</input>
+            <config>
+                <current_range>0</current_range>
+                <auto_range>true</auto_range>
+                <scan_rate>100</scan_rate>
+                <vertex0>-500</vertex0>
+                <vertex1>-500</vertex1>
+                <vertex2>+500</vertex2>
+                <cycle_count>1</cycle_count>
+                <voltage_offset>0</voltage_offset>
+                <current_offset>0</current_offset>
+                <signal_offset>0</signal_offset>
+            </config>
+        </potentiostat>
+    </sensors>
+
+    <testpoints>
+        <testpoint id="Testpoint 1">
+            <conductance>conductance0</conductance>
+            <ph>ph0</ph>
+            <orp>orp0</orp>
+            <temperature>temperature0</temperature>
+            <potentiostat>potentiostat0</potentiostat>
+        </testpoint>
+        <testpoint id="Testpoint 2">
+            <conductance>conductance1</conductance>
+            <ph>ph1</ph>
+            <orp>orp1</orp>
+            <temperature>temperature1</temperature>
+            <potentiostat>potentiostat1</potentiostat>
+        </testpoint>
+        <testpoint id="Testpoint 3">
+            <conductance>conductance2</conductance>
+            <ph>ph2</ph>
+            <orp>orp2</orp>
+            <temperature>temperature2</temperature>
+            <potentiostat>potentiostat2</potentiostat>
+        </testpoint>
+        <testpoint id="Testpoint 4">
+            <conductance>conductance3</conductance>
+            <ph>ph3</ph>
+            <orp>orp3</orp>
+            <temperature>temperature3</temperature>
+            <potentiostat>potentiostat3</potentiostat>
+        </testpoint>
+    </testpoints>
+</configuration>

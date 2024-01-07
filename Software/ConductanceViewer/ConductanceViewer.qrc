@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/zoom-in-x.svg</file>
+        <file>res/zoom-original.svg</file>
+        <file>res/zoom-out-x.svg</file>
+        <file>res/connect.svg</file>
+        <file>res/disconnect.svg</file>
+        <file>res/pause.svg</file>
+        <file>res/start.svg</file>
+        <file>res/about.svg</file>
+        <file>res/logo-hbrs.png</file>
+        <file>res/logo-isf.png</file>
+        <file>res/autoscale.svg</file>
+    </qresource>
+</RCC>
